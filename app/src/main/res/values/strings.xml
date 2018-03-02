@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Ambidata Card</string>
+    <string name="corporatedescr">Ambidata® develops and supplies Innovative Global Digital Solutions and consulting to Analysis Labs, which possess the ability to produce a totally digital working environment with no paper records, including LIMS, Quality Management and ERP Solutions.</string>
+    <string name="address1" translatable="false">Rua da Leira da Relva, 145</string>
+    <string name="address2" translatable="false">4410-155 S. Félix da Marinha</string>
+    <string name="phone" translatable="false">+351 220 120 813</string>
+    <string name="companyemail" translatable="false">ambidata@ambidata.com</string>
+    <string name="companywebsite" translatable="false">www.ambidata.com</string>
+</resources>
