@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         //Open Urls Image Click Events
-        ImageView imageView_Youtube = findViewById(R.id.imagebtn_youtube);
-        imageView_Youtube.setOnClickListener(new View.OnClickListener() {
+        ImageView imageViewYoutube = findViewById(R.id.imagebtn_youtube);
+        imageViewYoutube.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Uri uri = Uri.parse(URL_YOUTUBE);
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageView imageView_Facebook = findViewById(R.id.imagebtn_facebook);
-        imageView_Facebook.setOnClickListener(new View.OnClickListener() {
+        ImageView imageViewFacebook = findViewById(R.id.imagebtn_facebook);
+        imageViewFacebook.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Uri uri = Uri.parse(URL_FACEBOOK);
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageView imageView_Twitter = findViewById(R.id.imagebtn_twitter);
-        imageView_Twitter.setOnClickListener(new View.OnClickListener() {
+        ImageView imageViewTwitter = findViewById(R.id.imagebtn_twitter);
+        imageViewTwitter.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Uri uri = Uri.parse(URL_TWITTER);
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageView imageView_Linkedin = findViewById(R.id.imagebtn_linkedin);
-        imageView_Linkedin.setOnClickListener(new View.OnClickListener() {
+        ImageView imageViewLinkedin = findViewById(R.id.imagebtn_linkedin);
+        imageViewLinkedin.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Uri uri = Uri.parse(URL_LINKEDIN);
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
